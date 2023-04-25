@@ -11,7 +11,7 @@ export const news:News[] = [
     image: './../../assets/images/image-retro-pcs.jpg',
     value: '01',
     title: 'Reviving Retro PCs',
-    description: 'What happens when old PCs are given modern upgrades'
+    description: 'What happens when old PCs are given modern upgrades.'
   },
   {
     image: './../../assets/images/image-top-laptops.jpg',
@@ -23,7 +23,7 @@ export const news:News[] = [
     image: './../../assets/images/image-gaming-growth.jpg',
     value: '03',
     title: 'The Growth of Gaming',
-    description: 'How the pandemic has sparked fresh opportunities'
+    description: 'How the pandemic has sparked fresh opportunities.'
   },
 ]
 
