@@ -7,6 +7,7 @@ import { MatContentComponent } from './components/mat-content/mat-content.compon
 import { MatTitleComponent } from './components/mat-title/mat-title.component';
 import { MatDescriptionComponent } from './components/mat-description/mat-description.component';
 import { NewsHeadlinesComponent } from './components/news-headlines/news-headlines.component';
+import { ItemComponent } from './components/item/item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NewsHeadlinesComponent } from './components/news-headlines/news-headlin
     MatContentComponent,
     MatTitleComponent,
     MatDescriptionComponent,
-    NewsHeadlinesComponent
+    NewsHeadlinesComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
