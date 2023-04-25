@@ -1,4 +1,4 @@
-<div class="px-4 py-20 ">
+<div class="px-4 py-10 md:py-20 ">
   <div class="w-auto mx-auto md:max-w-4xl xl:max-w-7xl">
     <header class="w-full h-16 mb-4 xl:mb-6">
       <nav class="flex justify-between">
@@ -14,7 +14,7 @@
             <li>Categories</li>
           </ul>
           <div class="ml-2 sm:hidden ">
-            <img src="./../assets/images/icon-menu.svg" alt="icon menu">
+            <img (click)="toggleMenu()" src="./../assets/images/icon-menu.svg" alt="icon menu">
           </div>
         </div>
       </nav>
@@ -74,6 +74,24 @@
     </main>
   </div>
 </div>
+
+<!-- menu mobile -->
+<div *ngIf="menu" class="block sm:hidden">
+  <div class="fixed top-0 right-0 left-0 bottom-0 bg-dark-grayish-blue opacity-40"></div>
+  <ul class="fixed top-0 bottom-0 right-0 w-64 bg-off-white pt-28 pl-6 text-lg font-medium text-very-dark-blue space-y-3 ">
+    <li>Home</li>
+    <li>New</li>
+    <li>Popular</li>
+    <li>Trending</li>
+    <li>Categories</li>
+  </ul>
+  <div class="absolute top-5 right-5">
+    <img (click)="toggleMenu()" src="./../assets/images/icon-menu-close.svg" alt="icon close">
+  </div>
+</div>
+
+
+
 
 
 

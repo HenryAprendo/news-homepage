@@ -10,4 +10,10 @@ export class AppComponent {
 
   newsList:News[] = news.slice();
 
+  menu:boolean = false;
+
+  toggleMenu() {
+    this.menu = !this.menu;
+  }
+
 }
